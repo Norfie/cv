@@ -1,0 +1,94 @@
+/*
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*/
+@font-face {
+  font-family: "SpriteGraffiti";
+  src: url(../fonts/spritegraffiti.ttf);
+}
+
+@font-face {
+  font-family: "C2R";
+  src: url(../fonts/Classica_Two_Regular.ttf);
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+.Name {
+  font-family: 'Indie Flower', cursive;
+  font-size: 65px;
+  margin: 0;
+}
+
+.Desc {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.header {
+  background-color: #4f98ca;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.nav {
+  position: relative;
+  text-align: center;
+}
+
+.Intro {
+  background-color: #effffb;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 50px;
+}
+
+.train1 {
+  height: 200px;
+  width: 200px;
+  background-color: #50d890;
+}
+
+.train2 {
+  height: 200px;
+  width: 200px;
+  background-color: #4f98ca;
+}
+
+.mountain-img {
+  height: 300px;
+  width: 100%;
+}
+
+.clouds-img {
+  margin-top: 30px;
+  height: 250px;
+}
+
+.cloud1-img {
+  height: 100px;
+  position: absolute;
+  top: 250px;
+  left: 170px;
+}
+
+.cloud2-img {
+  height: 100px;
+  position: absolute;
+  top: 300px;
+  right: 250px;
+}
