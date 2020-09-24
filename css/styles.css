@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 
-.Name {
+h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 65px;
   margin: 0;
@@ -58,15 +58,19 @@ body {
 }
 
 .train1 {
-  height: 200px;
-  width: 200px;
-  background-color: #50d890;
+  /* background-color: #FFFFF0; */
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-size: 20px;
 }
 
 .train2 {
-  height: 200px;
-  width: 200px;
   background-color: #4f98ca;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50px;
 }
 
 .mountain-img {
@@ -91,4 +95,18 @@ body {
   position: absolute;
   top: 300px;
   right: 250px;
+}
+
+.MyPhoto {
+  margin-top: 15px;
+  max-height: 225px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+.MySkills {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  list-style: none;
+  margin: 0;
 }
